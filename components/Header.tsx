@@ -97,7 +97,7 @@ export default function Header() {
                 fugiat veniam occaecat fugiat aliqua.
               </p>
               <form className="mt-10">
-          <div className="flex gap-x-4">
+          <div className="flex flex-col sm:flex-row gap-4">
             <label htmlFor="email-address" className="sr-only">
               Email address
             </label>
