@@ -4,14 +4,12 @@ title: "Boost your conversion rate"
 description: "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta."
 date: "Mar 16, 2020"
 datetime: "2020-03-16"
-author:
-  name: "Michael Foster"
-  role: "Co-Founder / CTO"
-  href: "#"
-category:
-  title: "Marketing"
-  href: "#"
-imageUrl: ""
+authorName: "Michael Foster"
+authorRole: "Co-Founder / CTO"
+authorHref: "https://unsplash.com/photos/1WIWtnpVwK0"
+categoryTitle: "Marketing"
+categoryHref: "/#"
+authorImageUrl: "https://unsplash.com/photos/1WIWtnpVwK0"
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat
