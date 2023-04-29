@@ -1,4 +1,4 @@
-import AllPosts from '@/components/AllPosts'
+import AllPostsList from '@/components/AllPostsList'
 import Header from '@/components/Header'
 import { Inter } from 'next/font/google'
 
@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
     <Header/>
-    <AllPosts/>
+    <AllPostsList/>
     </>
     )
 }
