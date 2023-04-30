@@ -6,10 +6,11 @@ date: "Mar 16, 2020"
 datetime: "2020-03-16"
 authorName: "Michael Foster"
 authorRole: "Co-Founder / CTO"
-authorHref: "https://unsplash.com/photos/1WIWtnpVwK0"
+authorHref: "/"
+authorUrl: "https://images.unsplash.com/photo-1682748518466-363fbb22abee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
 categoryTitle: "Marketing"
 categoryHref: "/#"
-authorImageUrl: "https://unsplash.com/photos/1WIWtnpVwK0"
+imageUrl: "https://images.unsplash.com/photo-1682748518466-363fbb22abee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

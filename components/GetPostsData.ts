@@ -1,4 +1,5 @@
 import fs from 'fs'
+import path from 'path'
 import matter from 'gray-matter'
 
 
@@ -8,17 +9,20 @@ export const getPostMetadata = () => {
   const markdownPosts = files.filter((file) => file.endsWith(".md"));
 
   const posts = markdownPosts.map((fileName) => {
-    const fileContents = fs.readFileSync(`posts/${fileName}`, "utf8");
-    const matterResult = matter(fileContents);
+    const markdownWithMeta = fs.readFileSync(path.join('posts', fileName),
+    'utf-8')
+
+    const slug = fileName.replace('.md', '')
+    const {data} = matter(markdownWithMeta)
+
     return {
-      title: matterResult.data.title,
-      date: matterResult.data.date,
-      subtitle: matterResult.data.subtitle,
-      slug: fileName.replace(".md", ""),
+      slug,
+      data,
     };
+
   });
 
-  return posts;
+  return posts
 };
 
 export default getPostMetadata;

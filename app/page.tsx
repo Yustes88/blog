@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 //TODO fix types
 export default function Home() {
   const postsData = getPostMetadata();
+  console.log(postsData)
 
   return (
     <>
