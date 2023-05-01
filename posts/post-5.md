@@ -11,6 +11,7 @@ authorUrl: "https://images.unsplash.com/photo-1519452575415-5ccf392f7864?ixlib=r
 categoryTitle: "Web Development"
 categoryHref: "/#"
 imageUrl: "https://images.unsplash.com/photo-1519452575415-5ccf392f7864?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGZyb250JTIwZW5kJTIwZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+rating: "top"
 ---
 
 Front-end development is a crucial aspect of web development, focusing on the creation and design of user-facing features on a website or web application. In today's world, where the majority of people access the internet through their phones, tablets, or laptops, front-end development has become more important than ever. The primary goal of front-end development is to enhance the user experience by providing a visually appealing, easy-to-use, and responsive interface.

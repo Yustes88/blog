@@ -11,6 +11,7 @@ authorUrl: "https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixlib=r
 categoryTitle: "Travel"
 categoryHref: "/#"
 imageUrl: "https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJlJTIwcGhvdG9ncmFwaGVyJTIwc2hvcHBpbmclMjBwcm92aWRlcnx8MHx8fHwxNjE5MTgxNzQ2&auto=format&fit=crop&w=2070&q=80"
+rating: "sub"
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

@@ -9,10 +9,6 @@ export default function AllPostsList({posts}: any) {
   const [blogPosts, setBlogPosts] = useState(posts)
 
 
-  useEffect(() => {
-    setBlogPosts(posts)
-  }, [posts])
-
   return (
     <div className="bg-white pb-24 sm:pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
