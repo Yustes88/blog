@@ -1,3 +1,4 @@
+// TODO fix types
 export const filteredPostsByCategory = ((currentCategory, posts) => {
   if(currentCategory === 'All') {
     return posts

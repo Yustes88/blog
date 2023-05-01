@@ -33,16 +33,18 @@ export default function FilterPosts({posts, setPosts}) {
           <div className="py-1">
             {filterCategory.map((category) => (
             <Menu.Item key={category}>
-              {({ active }) => (
+              {({ active, close }) => (
                 <a
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                     'block px-4 py-2 text-sm'
                   )}
-                  onClick={() => {
+                  onClick={(e) => {
+                    e.preventDefault()
                     setPosts(filteredPostsByCategory(category, posts))
                     setCurrentFilter(category)
+                    close()
                   }}
                 >
                   {category}
