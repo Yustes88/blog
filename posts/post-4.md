@@ -2,7 +2,7 @@
 id: 4
 title: "Discover the Beauty of Nature"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis est sagittis, maximus purus in, vulputate velit. Nam laoreet faucibus enim eget dignissim. Fusce pharetra ac elit quis consectetur. Morbi euismod purus sed elit lobortis, id pretium ex gravida. Vivamus venenatis, est in tempus luctus, dui orci lobortis ipsum, at malesuada sapien sem ac odio."
-date: "Apr 30, 2023"
+date: "April 30, 2023"
 datetime: "2023-04-30"
 authorName: "Anna Reynolds"
 authorRole: "Nature Photographer"

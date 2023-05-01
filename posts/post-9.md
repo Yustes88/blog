@@ -2,7 +2,7 @@
 id: 9
 title: "Creating a Next.js 13 app directory"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in ultricies nisl. Aliquam sit amet neque tincidunt, finibus quam at, aliquam eros. Nullam eget turpis libero. Quisque sed nisi dignissim, bibendum nulla vel, tincidunt tortor. Vestibulum non luctus arcu. Donec vitae sapien ultricies, euismod risus ac, iaculis mauris. Nullam non mauris non ante dictum auctor. Nunc ac mauris eget quam feugiat bibendum. Duis et sollicitudin tellus."
-date: "Apr 30, 2023"
+date: "April 30, 2023"
 datetime: "2023-04-30"
 authorName: "Emma Johnson"
 authorRole: "Full Stack Developer"
