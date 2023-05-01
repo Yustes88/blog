@@ -2,7 +2,7 @@
 id: 3
 title: "The Benefits of Yoga"
 description: "Learn how yoga can improve your physical and mental health"
-date: "Aug 22, 2020"
+date: "August 22, 2020"
 datetime: "2020-08-22"
 authorName: "Jennifer Lee"
 authorRole: "Certified Yoga Instructor"

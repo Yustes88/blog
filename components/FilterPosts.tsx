@@ -9,7 +9,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function FilterPosts({posts, setPosts}) {
+export default function FilterPosts({posts, setBlogPosts}) {
   const [currentFilter, setCurrentFilter] = useState('All')
   return (
     <Menu as="div" className="relative inline-block text-left">
@@ -42,7 +42,7 @@ export default function FilterPosts({posts, setPosts}) {
                   )}
                   onClick={(e) => {
                     e.preventDefault()
-                    setPosts(filteredPostsByCategory(category, posts))
+                    setBlogPosts(filteredPostsByCategory(category, posts))
                     setCurrentFilter(category)
                     close()
                   }}

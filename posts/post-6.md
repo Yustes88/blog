@@ -2,7 +2,7 @@
 id: 6
 title: "Mobile-First Design: Why It Matters"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium, nulla et rutrum sagittis, massa turpis tempus ex, nec egestas lacus dolor eu libero. Curabitur et felis ligula. Nullam mattis justo sed erat facilisis porttitor."
-date: "Apr 15, 2020"
+date: "April 15, 2020"
 datetime: "2020-04-15"
 authorName: "Emily Carter"
 authorRole: "Web Designer"
