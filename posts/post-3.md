@@ -1,5 +1,5 @@
 ---
-id: 7
+id: 3
 title: "The Benefits of Yoga"
 description: "Learn how yoga can improve your physical and mental health"
 date: "Aug 22, 2020"
