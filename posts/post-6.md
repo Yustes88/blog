@@ -10,7 +10,9 @@ authorHref: "/"
 authorUrl: "https://images.unsplash.com/photo-1551024601-4b0e191d66a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vYmlsZSUyMGZpcnN0JTIwZGVzaWduc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
 categoryTitle: "Design"
 categoryHref: "/#"
-imageUrl: "https://images.unsplash.com/photo-1551024601-4b0e191d66a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vYmlsZSUyMGZpcnN0JTIwZGVzaWduc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=2070&q=80"
+imageUrl: "https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+rating: "sub"
+size: 10
 ---
 
 In the modern world of web design, mobile-first design has become an increasingly popular approach. But what exactly is mobile-first design, and why does it matter? In this article, we'll explore the answers to those questions and take a closer look at the benefits of designing with a mobile-first mindset.
