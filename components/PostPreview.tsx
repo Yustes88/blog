@@ -1,7 +1,10 @@
 import Image from "next/image"
+import Link from "next/link"
 
 //TODO fix type
-export default function PostPreview({post, type}: any) {
+export default function PostPreview({post, type, slug }: any) {
+  const postSlug = slug;
+
   return (
             <article key={post.id} className="flex flex-col items-start justify-between">
                 {post.size && type === 'sub' ? null
@@ -54,6 +57,9 @@ export default function PostPreview({post, type}: any) {
                   </div>
                 </div>
               </div>
+                  <Link href={`/blog/${postSlug}`}>
+        <h2 className=" text-violet-600 hover:underline mb-4">Read more</h2>
+      </Link>
             </article>
           
   )

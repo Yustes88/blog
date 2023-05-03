@@ -9,7 +9,7 @@ export const getPostMetadata = () => {
   const markdownPosts = files.filter((file) => file.endsWith(".md"));
 
   const posts = markdownPosts.map((fileName) => {
-    const markdownWithMeta = fs.readFileSync(path.join('posts', fileName),
+    const markdownWithMeta = fs.readFileSync(`posts/${fileName}`,
     'utf-8')
 
     const slug = fileName.replace('.md', '')
