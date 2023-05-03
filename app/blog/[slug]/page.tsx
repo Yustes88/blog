@@ -4,6 +4,7 @@ import matter from "gray-matter";
 import getPostMetadata from "@/components/GetPostsData";
 import Header from "@/components/Header";
 import PostFull from "@/components/PostFull";
+import { Nav } from "@/components/Nav";
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -26,7 +27,7 @@ const PostPage = (props: any) => {
   const post = getPostContent(slug);
   return (
     <>
-    <Header/>
+    <Nav/>
     <PostFull post = {post}/>
     </>
   );
