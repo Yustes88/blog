@@ -1,3 +1,4 @@
+import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
 import Image from "next/image"
 import Link from "next/link"
 
@@ -57,9 +58,12 @@ export default function PostPreview({post, type, slug }: any) {
                   </div>
                 </div>
               </div>
-                  <Link href={`/blog/${postSlug}`}>
-        <h2 className=" text-violet-600 hover:underline mb-4">Read more</h2>
-      </Link>
+              <div className="relative mt-8 flex items-center gap-x-4">
+                <Link href={`/blog/${postSlug}`} className="flex">
+                  <h2 className="hover:underline pr-2 mb-4">Read more</h2>
+                  <ArrowLongRightIcon className="mt-0.5 h-5 w-5 flex-none text-gray-500" aria-hidden="true"/>
+                </Link>
+              </div>
             </article>
           
   )

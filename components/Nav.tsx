@@ -5,10 +5,7 @@ import { Bars3Icon } from "@heroicons/react/20/solid"
 import { useState } from "react"
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'All blogs', href: '/' },
 ]
 
 export function Nav() {

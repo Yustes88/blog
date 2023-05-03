@@ -1,6 +1,6 @@
 'use client'
 
-import { CheckCircleIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
+import { InformationCircleIcon } from '@heroicons/react/20/solid'
 import Markdown from 'markdown-to-jsx'
 import Image from 'next/image'
 
