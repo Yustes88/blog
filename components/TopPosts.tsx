@@ -12,12 +12,12 @@ export default function TopPosts({posts}) {
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-12 sm:gap-y-16 lg:grid-cols-2">
         <div>
         {posts.map((post) => {
-              return post.data.rating === 'top' ? <PostPreview post={post.data} key={post.data.id} /> : null
+              return post.data.rating === 'top' ? <PostPreview post={post.data} key={post.data.id} slug={post.slug}/> : null
             })}
         </div>
         <div className="flex flex-col	justify-between	">
         {posts.map((post) => {
-              return post.data.rating === 'sub' ? <PostPreview post={post.data} key={post.data.id} type={'sub'}/> : null
+              return post.data.rating === 'sub' ? <PostPreview post={post.data} key={post.data.id} slug={post.slug} type={'sub'}/> : null
 })}
         </div>
       </div>
