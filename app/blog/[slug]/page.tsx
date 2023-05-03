@@ -1,8 +1,6 @@
 import fs from "fs";
-import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getPostMetadata from "@/components/GetPostsData";
-import Header from "@/components/Header";
 import PostFull from "@/components/PostFull";
 import { Nav } from "@/components/Nav";
 
