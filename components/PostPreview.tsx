@@ -7,7 +7,7 @@ export default function PostPreview({post, type, slug }: any) {
   const postSlug = slug;
 
   return (
-            <article key={post.id} className="flex flex-col items-start justify-between">
+            <article key={post.id} className="flex flex-col items-start justify-between pb-10">
                 {post.size && type === 'sub' ? null
                   :
                 <>

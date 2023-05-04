@@ -2,7 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import getPostMetadata from "@/components/GetPostsData";
 import PostFull from "@/components/PostFull";
-import { Nav } from "@/components/Nav";
+import { RelatedPosts } from "@/components/RelatedPosts";
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -23,10 +23,17 @@ export const generateStaticParams = async () => {
 const PostPage = (props: any) => {
   const slug = props.params.slug;
   const post = getPostContent(slug);
+  const postsData = getPostMetadata();
   return (
     <>
-    <Nav/>
+    
+  <div className="col-span-12 md:col-span-8">
     <PostFull post = {post}/>
+  </div>
+
+  <div className="col-span-12 md:col-span-4">
+    <RelatedPosts post = {post} posts = {postsData}/>
+    </div>
     </>
   );
 };
