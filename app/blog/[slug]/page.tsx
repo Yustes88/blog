@@ -2,8 +2,6 @@ import fs from "fs";
 import matter from "gray-matter";
 import getPostMetadata from "@/components/GetPostsData";
 import PostFull from "@/components/PostFull";
-import { Nav } from "@/components/Nav";
-import PostPreview from "@/components/PostPreview";
 import { RelatedPosts } from "@/components/RelatedPosts";
 
 const getPostContent = (slug: string) => {

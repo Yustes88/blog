@@ -1,15 +1,19 @@
 'use client'
 
-import { InformationCircleIcon } from '@heroicons/react/20/solid'
+import { ArrowLongLeftIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
 import Markdown from 'markdown-to-jsx'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function PostFull({post}) {
   console.log(post)
   return (
     <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-      
+        <div className='pb-6 flex hover:underline'>
+        <ArrowLongLeftIcon className="mt-0.5 h-5 w-5 flex-none text-gray-500" aria-hidden="true"/>
+        <Link href='/' className='pl-2'>Back to main</Link>
+        </div>
         <p className="text-base font-semibold leading-7 text-indigo-600">{post.data.categoryTitle}</p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{post.data.title}</h1>
         <figure className="mt-10 border-l border-indigo-600 pl-9">
