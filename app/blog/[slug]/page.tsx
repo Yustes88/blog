@@ -4,6 +4,7 @@ import getPostMetadata from "@/components/GetPostsData";
 import PostFull from "@/components/PostFull";
 import { Nav } from "@/components/Nav";
 import PostPreview from "@/components/PostPreview";
+import { RelatedPosts } from "@/components/RelatedPosts";
 
 const getPostContent = (slug: string) => {
   const folder = "posts/";
@@ -27,21 +28,14 @@ const PostPage = (props: any) => {
   const postsData = getPostMetadata();
   return (
     <>
-    <Nav/>
-    <div className="grid grid-cols-12 gap-8">
+    
   <div className="col-span-8">
     <PostFull post = {post}/>
   </div>
+
   <div className="col-span-4">
-    <div className="grid grid-cols-1 gap-4">
-    <div>
-        {postsData.map((item) => {
-              return item.data.categoryTitle === post.data.categoryTitle ? <PostPreview post={item.data} key={item.data.id} slug={item.slug}/> : null
-            })}
-        </div>
+    <RelatedPosts post = {post} posts = {postsData}/>
     </div>
-  </div>
-</div>
     </>
   );
 };
