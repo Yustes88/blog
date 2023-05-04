@@ -14,7 +14,7 @@ export default function PostLayout({
         <Nav/>
         <div className="bg-white pb-24 sm:pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <div className="grid grid-cols-12 gap-8">
+      <div className="grid  gap-8 grid-cols-1 md:grid-cols-12">
         {children}
         </div>
         </div>

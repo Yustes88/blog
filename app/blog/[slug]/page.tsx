@@ -29,11 +29,11 @@ const PostPage = (props: any) => {
   return (
     <>
     
-  <div className="col-span-8">
+  <div className="col-span-12 md:col-span-8">
     <PostFull post = {post}/>
   </div>
 
-  <div className="col-span-4">
+  <div className="col-span-12 md:col-span-4">
     <RelatedPosts post = {post} posts = {postsData}/>
     </div>
     </>
