@@ -1,7 +1,11 @@
+import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
 import Image from "next/image"
+import Link from "next/link"
 
 //TODO fix type
-export default function PostPreview({post, type}: any) {
+export default function PostPreview({post, type, slug }: any) {
+  const postSlug = slug;
+
   return (
             <article key={post.id} className="flex flex-col items-start justify-between">
                 {post.size && type === 'sub' ? null
@@ -53,6 +57,12 @@ export default function PostPreview({post, type}: any) {
                     <p className="text-gray-600">{post.auhtorRole}</p>
                   </div>
                 </div>
+              </div>
+              <div className="relative mt-8 flex items-center gap-x-4">
+                <Link href={`/blog/${postSlug}`} className="flex">
+                  <h2 className="hover:underline pr-2 mb-4">Read more</h2>
+                  <ArrowLongRightIcon className="mt-0.5 h-5 w-5 flex-none text-gray-500" aria-hidden="true"/>
+                </Link>
               </div>
             </article>
           
