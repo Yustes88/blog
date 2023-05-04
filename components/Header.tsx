@@ -3,7 +3,7 @@ import { Nav } from "./Nav"
 export default function Header() {
 
   return (
-    <div className="bg-white">
+    <div className="bg-white h-screen">
       <Nav/>
 
       <div className="relative isolate pt-14">
