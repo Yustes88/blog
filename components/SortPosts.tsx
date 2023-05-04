@@ -51,7 +51,8 @@ export default function SortPosts({posts, setBlogPosts}) {
                     )}
                     onClick={(e) => {
                       e.preventDefault()
-                      const sortedPosts = getSortedPosts(option.name, posts)
+                      const filteredPosts = [...posts]
+                      const sortedPosts = getSortedPosts(option.name, filteredPosts)
                       setBlogPosts(sortedPosts)
                       console.log(sortedPosts)
                       close()
