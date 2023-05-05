@@ -27,9 +27,7 @@ export default function AllPostsList({posts}: any) {
 
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {blogPosts.map((post: any) => (
-            <>
             <PostPreview post={post.data} key={post.data.id} slug={post.slug}/>
-            </>
           ))}
         </div>
       </div>
