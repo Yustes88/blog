@@ -59,10 +59,12 @@ export default function PostPreview({post, type, slug }: any) {
                 </div>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
+                <span className="link-underline link-underline-gray">
                 <Link href={`/blog/${postSlug}`} className="flex">
-                  <h2 className="px-2 mb-4 link-underline link-underline-gray">Read more</h2>
+                  <h2 className="px-2 mb-2">Read more</h2>
                   <ArrowLongRightIcon className="mt-0.5 h-5 w-5 flex-none text-gray-500" aria-hidden="true"/>
                 </Link>
+                </span>
               </div>
             </article>
           
