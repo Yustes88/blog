@@ -18,7 +18,7 @@ export default function AllPostsList({posts}: any) {
 
         <div className="flex justify-between	">
           <div>
-        <span>Filter:</span><FilterPosts posts = {posts} setBlogPosts={setBlogPosts}/>
+        <span className="pr-4">Filter:</span><FilterPosts posts = {posts} setBlogPosts={setBlogPosts}/>
           </div>
           <div>
             <SortPosts posts={blogPosts} setBlogPosts = {setBlogPosts}/>
