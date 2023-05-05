@@ -30,8 +30,8 @@ export default function PostPreview({post, type, slug }: any) {
                     {post.date}
                   </time>
                   <a
-                    href={post.categoryHref}
-                    className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                  href={post.categoryHref}
+                    className="relative z-10 rounded-full border-solid border border-gray-200 bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                   >
                     {post.categoryTitle}
                   </a>

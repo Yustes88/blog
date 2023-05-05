@@ -14,7 +14,12 @@ export default function PostFull({post}) {
         <ArrowLongLeftIcon className="mt-0.5 h-5 w-5 flex-none text-gray-500" aria-hidden="true"/>
         <Link href='/' className='pl-2'>Back to main</Link>
         </div>
-        <p className="text-base font-semibold leading-7 text-indigo-600">{post.data.categoryTitle}</p>
+        <a
+                  href={post.data.categoryHref}
+                    className="relative z-10 rounded-full border-solid border border-gray-200 bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                  >
+                    {post.data.categoryTitle}
+                  </a>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{post.data.title}</h1>
         <figure className="mt-10 border-l border-indigo-600 pl-9">
             <blockquote className="text-gray-900">
