@@ -2,3 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .link-underline {
+    padding-bottom: 0.3rem;
+		border-bottom-width: 0;
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+		background-size: 0 1px;
+    background-position: 50% 100%;
+		background-repeat: no-repeat;
+		transition: background-size .2s ease-in-out;
+	}
+
+  
+	.link-underline:hover {
+    padding-bottom: 0.3rem;
+    background-size: 100% 2px;
+		background-position: 50% 100%;
+	}
+
+  
+  .link-underline-gray {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#868e96, #868e96);
+  }
+}
