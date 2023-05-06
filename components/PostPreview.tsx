@@ -1,9 +1,15 @@
+import { PostData } from "@/types/types";
 import { ArrowLongRightIcon } from "@heroicons/react/20/solid";
 import Image from "next/image"
 import Link from "next/link"
 
-//TODO fix type
-export default function PostPreview({post, type, slug }: any) {
+type PostPreviewProps = {
+  post: PostData,
+  type?: string,
+  slug: string,
+}
+
+export default function PostPreview({post, type, slug }: PostPreviewProps) {
   const postSlug = slug;
 
   return (
@@ -38,10 +44,10 @@ export default function PostPreview({post, type, slug }: any) {
                 </div>
                 <div className="group relative">
                   <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                    <a href={post.href}>
+                    <div>
                       <span className="absolute inset-0" />
                       {post.title}
-                    </a>
+                    </div>
                   </h3>
                   <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.description}</p>
                 </div>
@@ -54,7 +60,7 @@ export default function PostPreview({post, type, slug }: any) {
                         {post.authorName}
                       </a>
                     </p>
-                    <p className="text-gray-600">{post.auhtorRole}</p>
+                    <p className="text-gray-600">{post.authorRole}</p>
                   </div>
                 </div>
               </div>

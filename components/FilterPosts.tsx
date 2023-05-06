@@ -1,15 +1,19 @@
-import { Fragment, useState } from 'react'
+import { Dispatch, Fragment, SetStateAction, useState } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { filteredPostsByCategory } from '@/utils/utils'
+import { classNames, filteredPostsByCategory } from '@/utils/utils'
+import { Post } from '@/types/types'
 
 const filterCategory = ['All', 'Web Development', 'Marketing', 'NextJs']
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+
+
+type FilterPostsProps = {
+  posts: Post[],
+  setBlogPosts: Dispatch<SetStateAction<Post[]>>,
 }
 
-export default function FilterPosts({posts, setBlogPosts}) {
+export default function FilterPosts({posts, setBlogPosts}: FilterPostsProps) {
   const [currentFilter, setCurrentFilter] = useState('All')
   return (
     <Menu as="div" className="relative inline-block text-left">

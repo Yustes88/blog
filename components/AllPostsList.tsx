@@ -1,13 +1,16 @@
 'use client'
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import FilterPosts from "./FilterPosts"
 import PostPreview from "./PostPreview"
 import SortPosts from "./SortPosts"
+import { Post } from "@/types/types"
 
-//TODO fix types
-export default function AllPostsList({posts}: any) {
+type AllPostsListProps = {
+  posts: Post[]
+}
+
+export default function AllPostsList({posts}: AllPostsListProps) {
   const [blogPosts, setBlogPosts] = useState(posts)
-
 
   return (
     <div className="bg-white pb-24 sm:pb-32">
@@ -38,7 +41,7 @@ export default function AllPostsList({posts}: any) {
         </div>
 
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-          {blogPosts.map((post: any) => (
+          {blogPosts.map((post) => (
             <PostPreview post={post.data} key={post.data.id} slug={post.slug}/>
           ))}
         </div>

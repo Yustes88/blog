@@ -1,20 +1,18 @@
-'use client'
-
-import { getSortedPosts } from "@/utils/utils"
+import { sortOptions } from "@/data/data"
+import { Post } from "@/types/types"
+import { classNames, getSortedPosts } from "@/utils/utils"
 import { Menu, Transition } from "@headlessui/react"
 import { ChevronDownIcon } from "@heroicons/react/20/solid"
-import { Fragment, useState } from "react"
+import { Dispatch, Fragment, SetStateAction } from "react"
 
-const sortOptions = [
-  { name: 'Newest first', href: '#' },
-  { name: 'Oldest first', href: '#' },
-]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+type SortPostsProps = {
+  posts: Post[],
+  setBlogPosts: Dispatch<SetStateAction<Post[]>>
 }
 
-export default function SortPosts({posts, setBlogPosts}) {
+
+export default function SortPosts({posts, setBlogPosts}: SortPostsProps) {
 
 
   return(
