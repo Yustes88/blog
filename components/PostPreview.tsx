@@ -11,7 +11,6 @@ type PostPreviewProps = {
 
 export default function PostPreview({post, type, slug }: PostPreviewProps) {
   const postSlug = slug;
-  console.log(type)
 
   return (
             <article key={post.id} className="flex flex-col items-start justify-between p-10 shadow rounded">

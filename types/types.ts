@@ -1,4 +1,6 @@
 export interface PostData {
+  content: string;
+  data: any;
   id: number;
   title: string;
   description: string;
