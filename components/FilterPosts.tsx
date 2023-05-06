@@ -3,8 +3,8 @@ import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { classNames, filteredPostsByCategory } from '@/utils/utils'
 import { Post } from '@/types/types'
+import { filterCategory } from '@/data/data'
 
-const filterCategory = ['All', 'Web Development', 'Marketing', 'NextJs']
 
 
 

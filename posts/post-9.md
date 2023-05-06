@@ -7,10 +7,10 @@ datetime: "2023-04-30"
 authorName: "Emma Johnson"
 authorRole: "Full Stack Developer"
 authorHref: "/"
-authorUrl: "https://images.unsplash.com/photo-1562664928-4d4c5b899a55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW9kZXJhdGlvbnxlbnwwfHx8fDE2MzEzMDU5Mzk&auto=format&fit=crop&w=500&q=60"
-categoryTitle: "Programming"
+authorUrl: "https://images.unsplash.com/photo-1590038767624-dac5740a997b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+categoryTitle: "Design"
 categoryHref: "/#"
-imageUrl: "https://images.unsplash.com/photo-1562664928-4d4c5b899a55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW9kZXJhdGlvbnxlbnwwfHx8fDE2MzEzMDU5Mzk&auto=format&fit=crop&w=2070&q=80"
+imageUrl: "https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 ---
 
 Creating a Next.js 13 app directory is a simple process that can help you organize your codebase and speed up development. Here are the steps to create a Next.js 13 app directory:
