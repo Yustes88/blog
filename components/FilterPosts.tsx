@@ -5,7 +5,7 @@ import { filteredPostsByCategory } from '@/utils/utils'
 
 const filterCategory = ['All', 'Web Development', 'Marketing', 'NextJs']
 
-function classNames(...classes) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
