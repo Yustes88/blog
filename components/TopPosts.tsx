@@ -1,7 +1,13 @@
+import { Post } from "@/types/types"
 import PostPreview from "./PostPreview"
 
 
-export default function TopPosts({posts}) {
+type TopPostsProps = {
+  posts: Post[]
+}
+
+export default function TopPosts({posts}: TopPostsProps) {
+
   return (
     <div className="bg-white pb-24 sm:pb-32">
       <div className="relative isolate mx-auto max-w-7xl px-6 lg:px-8">
