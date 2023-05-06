@@ -29,7 +29,7 @@ export const getPostMetadata = (): Post[] => {
       categoryHref: data.categoryHref,
       imageUrl: data.imageUrl,
       rating: data.rating,
-      size: data.number,
+      size: data.size,
     };
 
     return {
