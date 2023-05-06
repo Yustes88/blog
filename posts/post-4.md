@@ -8,9 +8,9 @@ authorName: "Anna Reynolds"
 authorRole: "Nature Photographer"
 authorHref: "/"
 authorUrl: "https://images.unsplash.com/photo-1611695434369-a8f5d76ceb7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80"
-categoryTitle: "Travel"
+categoryTitle: "Design"
 categoryHref: "/#"
-imageUrl: "https://images.unsplash.com/photo-1521747116042-5a810fda9664?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJlJTIwcGhvdG9ncmFwaGVyJTIwc2hvcHBpbmclMjBwcm92aWRlcnx8MHx8fHwxNjE5MTgxNzQ2&auto=format&fit=crop&w=2070&q=80"
+imageUrl: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
 rating: "top"
 ---
 

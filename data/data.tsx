@@ -72,3 +72,5 @@ export const sortOptions = [
   { name: 'Newest first', href: '#' },
   { name: 'Oldest first', href: '#' },
 ]
+
+export const filterCategory = ['All', 'Web Development', 'Marketing', 'Design']

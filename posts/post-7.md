@@ -10,7 +10,7 @@ authorHref: "/"
 authorUrl: "https://images.unsplash.com/photo-1610069302033-6fee1f5791d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
 categoryTitle: "Web Development"
 categoryHref: "/#"
-imageUrl: "https://images.unsplash.com/photo-1558979157-0fb2b6c84b6b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzV8fHJlYWN0JTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=2070&q=80"
+imageUrl: "https://images.unsplash.com/photo-1624996752380-8ec242e0f85d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
 ---
 
 Next.js is a popular framework for building server-side rendered (SSR) React applications. With Next.js, developers can build highly performant and scalable React applications with ease.

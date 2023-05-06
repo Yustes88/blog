@@ -8,9 +8,9 @@ authorName: "Emily Johnson"
 authorRole: "Software Engineer"
 authorHref: "/"
 authorUrl: "https://images.unsplash.com/photo-1608549036505-ead5b1de5417?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
-categoryTitle: "Web Development"
+categoryTitle: "Marketing"
 categoryHref: "/#"
-imageUrl: "https://images.unsplash.com/photo-1554280312-bc6c6f8cbfc1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2100&q=80"
+imageUrl: "https://images.unsplash.com/photo-1532622785990-d2c36a76f5a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
 ---
 
 In today's web development, page speed and user experience are crucial factors to consider. Slow-loading images can negatively affect your website's performance, leading to a poor user experience and decreased conversion rates. Fortunately, Next.js provides an Image component that makes it easy to optimize your images and improve your website's performance.
