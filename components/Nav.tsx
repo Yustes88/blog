@@ -1,12 +1,10 @@
 'use client'
 
+import { navigation } from "@/data/data"
 import { Dialog } from "@headlessui/react"
 import { Bars3Icon } from "@heroicons/react/20/solid"
 import { useState } from "react"
 
-const navigation = [
-  { name: 'All blogs', href: '/' },
-]
 
 export function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -26,7 +24,7 @@ export function Nav() {
             </button>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
-            {navigation.map((item) => (
+            {navigation.main.map((item) => (
               <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
                 {item.name}
               </a>
@@ -45,7 +43,7 @@ export function Nav() {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                  {navigation.map((item) => (
+                  {navigation.main.map((item) => (
                     <a
                       key={item.name}
                       href={item.href}

@@ -1,5 +1,6 @@
 
 import AllPostsList from '@/components/AllPostsList'
+import Footer from '@/components/Footer';
 import getPostMetadata from '@/components/GetPostsData';
 import Header from '@/components/Header'
 import TopPosts from '@/components/TopPosts';
@@ -17,6 +18,7 @@ export default function Home() {
     <Header/>
     <TopPosts posts={postsData}/>
     <AllPostsList posts = {postsData}/>
+    <Footer/>
     </>
     )
 }

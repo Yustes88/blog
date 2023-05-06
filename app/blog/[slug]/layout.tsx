@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import { Nav } from '@/components/Nav'
 import { Inter } from 'next/font/google'
 
@@ -18,6 +19,7 @@ export default function PostLayout({
         </div>
         </div>
         </div>
+        <Footer/>
       </div>
   )
 }

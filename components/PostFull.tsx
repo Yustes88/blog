@@ -6,7 +6,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function PostFull({post}) {
-  console.log(post)
   return (
     <div className="bg-white px-6 py-32 lg:px-8">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
@@ -15,7 +14,7 @@ export default function PostFull({post}) {
           <span className='link-underline link-underline-gray'>
             <Link href='/' className="flex">
                 <ArrowLongLeftIcon className="mt-0.5 h-5 w-5 flex-none text-gray-500" aria-hidden="true"/>
-                  <h2 className="px-2">Read more</h2>
+                  <h2 className="px-2">Back to main</h2>
             </Link>
           </span>
          </div>
