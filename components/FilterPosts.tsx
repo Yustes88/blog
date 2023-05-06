@@ -1,14 +1,12 @@
 import { Dispatch, Fragment, SetStateAction, useState } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { filteredPostsByCategory } from '@/utils/utils'
+import { classNames, filteredPostsByCategory } from '@/utils/utils'
 import { Post } from '@/types/types'
 
 const filterCategory = ['All', 'Web Development', 'Marketing', 'NextJs']
 
-function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ')
-}
+
 
 type FilterPostsProps = {
   posts: Post[],

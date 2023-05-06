@@ -67,3 +67,8 @@ export const navigation = {
     },
   ],
 }
+
+export const sortOptions = [
+  { name: 'Newest first', href: '#' },
+  { name: 'Oldest first', href: '#' },
+]
