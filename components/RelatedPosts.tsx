@@ -1,6 +1,12 @@
+import { Post } from "@/types/types"
 import PostPreview from "./PostPreview"
 
-export function RelatedPosts({posts, post}) {
+type RelatedPostsProps = {
+  posts: Post[],
+  post: Post,
+}
+
+export function RelatedPosts({posts, post}: RelatedPostsProps) {
   
   return(
     <div className="bg-white px-6 md:py-32 lg:px-8">
