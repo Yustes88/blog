@@ -7,7 +7,7 @@ export default function PostPreview({post, type, slug }: any) {
   const postSlug = slug;
 
   return (
-            <article key={post.id} className="flex flex-col items-start justify-between pb-10">
+            <article key={post.id} className="flex flex-col items-start justify-between p-10 shadow rounded">
                 {post.size && type === 'sub' ? null
                   :
                 <>
@@ -30,8 +30,8 @@ export default function PostPreview({post, type, slug }: any) {
                     {post.date}
                   </time>
                   <a
-                    href={post.categoryHref}
-                    className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
+                  href={post.categoryHref}
+                    className="relative z-10 rounded-full border-solid border border-gray-200 bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
                   >
                     {post.categoryTitle}
                   </a>
@@ -59,10 +59,12 @@ export default function PostPreview({post, type, slug }: any) {
                 </div>
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
+                <span className="link-underline link-underline-gray">
                 <Link href={`/blog/${postSlug}`} className="flex">
-                  <h2 className="hover:underline pr-2 mb-4">Read more</h2>
+                  <h2 className="px-2 mb-2">Read more</h2>
                   <ArrowLongRightIcon className="mt-0.5 h-5 w-5 flex-none text-gray-500" aria-hidden="true"/>
                 </Link>
+                </span>
               </div>
             </article>
           
