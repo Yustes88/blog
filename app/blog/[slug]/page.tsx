@@ -4,12 +4,38 @@ import getPostMetadata from "@/components/GetPostsData";
 import PostFull from "@/components/PostFull";
 import { RelatedPosts } from "@/components/RelatedPosts";
 
-const getPostContent = (slug: string) => {
+export interface PostData {
+  content: string;
+  data: any;
+  id: number;
+  title: string;
+  description: string;
+  date: string;
+  datetime: string;
+  authorName: string;
+  authorRole: string;
+  authorHref: string;
+  authorUrl: string;
+  categoryTitle: string;
+  categoryHref: string;
+  imageUrl: string;
+  rating?: string;
+  size?: number;
+  slug: string;
+}
+
+const getPostContent = (slug: string): PostData => {
   const folder = "posts/";
   const file = `${folder}${slug}.md`;
   const content = fs.readFileSync(file, "utf8");
   const matterResult = matter(content);
-  return matterResult;
+  const data = matterResult.data as Omit<PostData, "content">;
+  const post: PostData = {
+    ...data,
+    content: matterResult.content,
+    slug,
+  };
+  return post;
 };
 
 export const generateStaticParams = async () => {
