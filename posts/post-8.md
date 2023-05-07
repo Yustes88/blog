@@ -28,7 +28,11 @@ import Image from 'next/image'
 Then, use the Image component in your JSX code and pass in the image source, width, and height as props:
 
 ```javascript
-<Image src="/path/to/image.jpg" width={500} height={500} alt="My Image" />
+<Image src="/path/to/image.jpg" 
+  alt="My Image"
+  width={500}
+  height={500}
+
 ```
 
 Next.js Image automatically optimizes your image based on the specified dimensions. It also generates different sizes of the image for different device sizes, which improves performance by reducing the amount of data that needs to be downloaded.
@@ -44,7 +48,12 @@ Next.js Image supports lazy loading, which means that images are only loaded whe
 To enable lazy loading, add the `loading` attribute to the Image component:
 
 ```javascript
-<Image src="/path/to/image.jpg" width={500} height={500} alt="My Image" loading="lazy" />
+<Image src="/path/to/image.jpg" 
+  alt="My Image"
+  width={500}
+  height={500}
+  loading="lazy"
+  sizes="(max-width: 640px) 100vw
 ```
 
 #### Responsive image loading
@@ -60,3 +69,5 @@ To enable responsive image loading, pass an array of objects with different `wid
   width={500}
   height={500}
   sizes="(max-width: 640px) 100vw
+  
+```
