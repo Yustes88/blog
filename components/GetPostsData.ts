@@ -30,6 +30,8 @@ export const getPostMetadata = (): Post[] => {
       imageUrl: data.imageUrl,
       rating: data.rating,
       size: data.size,
+      content: data.content,
+      data: data.data,
     };
 
     return {
