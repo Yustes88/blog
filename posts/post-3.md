@@ -56,8 +56,8 @@ Once the user is created, you'll need to generate access keys (passwords, essent
 Your access keys should look something like this:
 
 ```
-Access key ID: AKIAIOSFODNN7EXAMPLE
-Secret access key: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Access key ID: AKIAI
+Secret access key: wJalrX
 ```
 
 
@@ -98,7 +98,7 @@ Now you should be able to use your CLI to access AWS. For example, I should be a
 ```bash
 aws s3 ls
 2020-12-09 22:36:32 blog.pixegami.com
-2020-12-27 00:04:52 cloud-archiver.5dac84a54677.archivetest
+2020-12-27 00:04:52 cloud-archiver
 ```
 
 Generally, everything that can be done in the console can also be done in the CLI. Check out the [full reference guide here](https://docs.aws.amazon.com/cli/latest/index.html).
