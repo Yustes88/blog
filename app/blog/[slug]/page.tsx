@@ -23,6 +23,7 @@ export const generateStaticParams = async () => {
 const PostPage = (props: any) => {
   const slug = props.params.slug;
   const post = getPostContent(slug);
+  console.log(post)
   const postsData = getPostMetadata();
   return (
     <>

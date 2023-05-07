@@ -1,9 +1,10 @@
 import { Post } from "@/types/types"
 import PostPreview from "./PostPreview"
+import { GrayMatterFile } from "gray-matter"
 
 type RelatedPostsProps = {
   posts: Post[],
-  post: Post,
+  post: GrayMatterFile<string>,
 }
 
 export function RelatedPosts({posts, post}: RelatedPostsProps) {

@@ -2,12 +2,13 @@
 
 import { PostData } from '@/types/types'
 import { ArrowLongLeftIcon, InformationCircleIcon } from '@heroicons/react/20/solid'
+import { GrayMatterFile } from 'gray-matter'
 import Markdown from 'markdown-to-jsx'
 import Image from 'next/image'
 import Link from 'next/link'
 
 type PostFullProps = {
-  post: PostData
+  post: GrayMatterFile<string>
 }
 
 export default function PostFull({post}:PostFullProps ) {
